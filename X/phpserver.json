@@ -1,0 +1,7 @@
+{
+  "port": 8020,
+  "hostname": "127.0.0.1", 
+  "base": "./server/php",
+  "php": "/opt/homebrew/bin/php", 
+  "enable": true
+}
