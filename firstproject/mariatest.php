@@ -1,4 +1,4 @@
-<h1>dlfis1241je</h1>
+<h1>연결확인</h1>
 
 <?php
 $servername = "172.22.0.2"; 

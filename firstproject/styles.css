@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #d1f3f7;
+  --color-white: #fff;
+  --color-background: #f6f6f9;
+  --color-light: rgba(132, 139, 200, 0.18);
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+header {
+  background-color: var(--color-white);
+  box-shadow: 0 1rem 1rem var(--color-light);
+  line-height: 90px;
+  text-align: center;
+}
+
+nav {
+  box-shadow: 0 1rem 1rem var(--color-light);
+  /* height: 40px; */
+  line-height: 40px;
+  text-align: left;
+  color: #ffffff;
+}
+
+section {
+  background-color: var(--color-white);
+  min-height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+}
+
+footer {
+  background-color: var(--color-white);
+  box-shadow: 0rem -1rem 1rem var(--color-light);
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 17px;
+}
+
+h2 {
+  padding: 10px;
+}
+
+table {
+  margin: 8px;
+  /* width: 100%;  */
+  /* table-layout: fixed;  */
+  /* 테이블 레이아웃을 고정으로 설정 (텍스트 길이에 따라 컬럼 너비가 조정되지 않음) */
+  text-align: center;
+  padding: 2px;
+}
+
+td {
+  padding: 2px;
+  white-space: nowrap; /* 텍스트 줄 바꿈 방지 */
+  overflow: hidden; /* 텍스트가 셀을 넘어가면 숨김 */
+  text-overflow: ellipsis; /* 텍스트가 셀을 넘어갈 경우 점으로 표시 */
+}
+
+.board_num {
+  width: 40px;
+}
+
+.board_title {
+  width: 120px;
+}
+.board_content {
+  min-width: 200px;
+}
+.board_name {
+  width: 120px;
+}
+.board_date {
+  width: 150px;
+}
+.board_delete {
+  width: 40px;
+}
